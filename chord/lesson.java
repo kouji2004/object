@@ -6,7 +6,7 @@ public class lesson {
     Car c1 = new Car();
 
     // 自動車c1のナンバーを255に設定
-    c1.setNo(234);
+    c1.setNo(2525);
 
     // 自動車c1の速度を30に設定
     c1.run(30);
