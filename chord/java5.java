@@ -15,7 +15,7 @@ public class java5 {
 class Student {
   // 1属性
   private String name;
-  int score;
+  private int score;
 
   // 操作（メソッド）
   public Student(String n) {
