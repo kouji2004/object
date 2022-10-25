@@ -1,3 +1,5 @@
+//オーバーロードとは同じメソッド名で引数が違うもの
+
 package chord;
 
 public class java6 {
