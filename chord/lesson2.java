@@ -2,15 +2,15 @@
 
 package chord;
 
-public class java6 {
+public class lesson2 {
   public static void main(String[] ages) {
-    Car car = new Car();
-    car.setNo(2525);
-    car.run(30);
-    car.display();
+    Car c1 = new Car();
+    c1.run(30);
+    c1.display();
 
-    car.brak(10);
-    car.display();
+    Car c2 = new Car(2525);
+    c2.run(50);
+    c2.display();
   }
 }
 
@@ -20,7 +20,12 @@ class Car {
   int speed;
 
   // 操作
-  void setNo(int n) {
+
+  Car() {
+    no = 0;
+  }
+
+  Car(int n) {
     no = n;
   }
 
