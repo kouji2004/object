@@ -8,7 +8,6 @@ public class java3 {
     stu1.setScore(90, 90);
     stu1.display();
     stu2.display();
-
   }
 }
 
