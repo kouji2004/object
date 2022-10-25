@@ -1,3 +1,5 @@
+//private カプセル化
+
 package chord;
 
 public class lesson3 {
